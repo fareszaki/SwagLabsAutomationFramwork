@@ -11,7 +11,8 @@
      "products": {
        "item1": {
          "name": "Sauce Labs Backpack",
-         "price": "7.99"
+         "price": "29.99",
+         "allprice" : "$29.99"
        },
        "item2": {
          "name": "Sauce Labs Bike Light",
@@ -25,7 +26,12 @@
     "name3": "Price (low to high)",
     "name4": "Price (high to low)"
   },
-   "numofproducts" : "1" ,
-   "buttonName" : "REMOVE"
-
+   "numOfProduct": "1" ,
+   "buttonName" : "REMOVE" ,
+   "checkoutData" : {
+     "firstName": "John",
+        "lastName": "Doe",
+        "postalCode": "12345"
+   },
+  "confirmMessage" : "Checkout: Overview"
 }

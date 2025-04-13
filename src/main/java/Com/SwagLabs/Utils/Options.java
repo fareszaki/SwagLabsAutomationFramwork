@@ -5,6 +5,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Options {
     private Options() {
     } // Private constructor to prevent instantiation
@@ -22,6 +25,10 @@ public class Options {
        options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
          options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
         options.setExperimentalOption("useAutomationExtension", false);
+        Map<String, Object> prefs = new HashMap<>();
+        prefs.put("credentials_enable_service", false);
+        prefs.put("profile.password_manager_enabled", false);
+        options.setExperimentalOption("prefs", prefs);
         return options;
     }
 
@@ -38,6 +45,10 @@ public class Options {
        options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
          options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
         options.setExperimentalOption("useAutomationExtension", false);
+        Map<String, Object> prefs = new HashMap<>();
+        prefs.put("credentials_enable_service", false);
+        prefs.put("profile.password_manager_enabled", false);
+        options.setExperimentalOption("prefs", prefs);
         return options;
     }
 

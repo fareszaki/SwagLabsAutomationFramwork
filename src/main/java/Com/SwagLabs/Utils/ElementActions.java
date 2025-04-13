@@ -17,6 +17,8 @@ public class ElementActions {
     }
 
     public static String GetElementText(By Locator, WebDriver driver) {
+        Waits.waitElementToBeClickable(driver , Locator) ;
+        Scroll.scrollToElement(driver, Locator);
         LogsUtils.info("Getting the text of the element");
         return ElementActions.ReturnWebElement(driver, Locator).getText();
     }
@@ -48,7 +50,14 @@ public class ElementActions {
         Select select = new Select(e);
         select.selectByVisibleText(Name);
     }
-
+    public static String getValueFromInput(WebDriver driver , By locator){
+        LogsUtils.info("wait Element to be clickable :"+ locator.toString());
+        Waits.waitElementToBeClickable(driver , locator);
+        LogsUtils.info("scroll to element : " + locator.toString());
+        Scroll.scrollToElement(driver , locator);
+        LogsUtils.info("Return value from : " +locator.toString() );
+       return ReturnWebElement(driver, locator).getDomAttribute("value") ;
+    }
 
 
 }

@@ -55,7 +55,7 @@ public class HomePage {
         ElementActions.ClickOnElement(driver, this.locateCartButton);
         return new CartPage(driver);
     }
-
+    @Step("Click on Drop List")
     public HomePage presenceOfElement() {
         Waits.waitElementToBePresent(driver, this.locateDropList);
         return this;
@@ -73,7 +73,7 @@ public class HomePage {
             return driver1;
         });
     }
-
+   @Step("Assert total num of products Added to cart Correctly")
     public void assertAddedProductCorrectly(String ProductName , String ExpectedResult) {
         By locateProduct = RelativeLocator.with(By.tagName("button")).below(By.xpath("//div[.='" + ProductName + "']"));
         String Actual = ElementActions.GetElementText(locateProduct, driver);
@@ -81,7 +81,7 @@ public class HomePage {
          LogsUtils.info("product :" + ProductName + " " + "Added Correctly To Cart ");
 
     }
-
+    @Step("assert User Navigate to cart page")
     public void assertNavigateToCartPage(String CartURL){
         ValidationUtils.validateEquals(BrowserAction.GetPageURL(driver) ,CartURL );
 

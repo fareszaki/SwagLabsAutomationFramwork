@@ -31,6 +31,12 @@ public class TestListener implements IExecutionListener , IInvokedMethodListener
     }
     public void afterInvocation(org.testng.IInvokedMethod method, org.testng.ITestResult testResult) {
         if (method.isTestMethod()) {
+            try{
+                AssertAll.assertAll();
+            }catch (AssertionError e){
+                testResult.setStatus(ITestResult.FAILURE);
+                testResult.setThrowable(e);
+            }
             switch (testResult.getStatus()) {
                 case ITestResult.SUCCESS:
                     File existingFile = new File("test-output/ScreenFile/" + testResult.getName() + ".png");

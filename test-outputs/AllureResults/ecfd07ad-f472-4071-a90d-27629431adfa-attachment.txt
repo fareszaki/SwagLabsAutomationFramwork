@@ -1,0 +1,47 @@
+[DEBUG] - [13-04-2025 15:23:34] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\F.mohamed\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [13-04-2025 15:23:36] [main] [Com.SwagLabs.Listeners.TestListener] - Test Execution Start 
+[INFO] - [13-04-2025 15:23:36] [main] [Com.SwagLabs.Listeners.TestListener] - Loading properties file
+[INFO] - [13-04-2025 15:23:36] [main] [Com.SwagLabs.Utils.propertiesUtils] - Properties loaded successfully
+[INFO] - [13-04-2025 15:23:36] [main] [Com.SwagLabs.Listeners.TestListener] - File Loaded Correctly 
+[INFO] - [13-04-2025 15:23:36] [main] [Com.SwagLabs.Listeners.TestListener] - Deleted Allure File
+[WARN] - [13-04-2025 15:23:36] [main] [Com.SwagLabs.Utils.FileUtils] - Failed to delete file test-outputs\Logs\log_2025-04-13_15-23-34.log: The process cannot access the file because it is being used by another process
+[INFO] - [13-04-2025 15:23:36] [main] [Com.SwagLabs.Listeners.TestListener] - Deleted Logs File
+[INFO] - [13-04-2025 15:23:36] [main] [Com.SwagLabs.Listeners.TestListener] - Deleted ScreenShot File
+[INFO] - [13-04-2025 15:23:36] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\F.mohamed\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[ERROR] - [13-04-2025 15:23:42] [main] [io.qameta.allure.util.NamingUtils] - Could not find parameter PropertiesUtils
+[DEBUG] - [13-04-2025 15:23:49] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid_data']['username']
+[INFO] - [13-04-2025 15:23:49] [main] [Com.SwagLabs.Utils.ElementActions] - Wait Element To Be Clickable By.id: user-name
+[INFO] - [13-04-2025 15:23:49] [main] [Com.SwagLabs.Utils.ElementActions] - Scroll to the element By.id: user-name
+[INFO] - [13-04-2025 15:23:49] [main] [Com.SwagLabs.Utils.ElementActions] - Enter Data : standard_user  By.id: user-name
+[DEBUG] - [13-04-2025 15:23:49] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid_data']['Password']
+[INFO] - [13-04-2025 15:23:49] [main] [Com.SwagLabs.Utils.ElementActions] - Wait Element To Be Clickable By.id: password
+[INFO] - [13-04-2025 15:23:49] [main] [Com.SwagLabs.Utils.ElementActions] - Scroll to the element By.id: password
+[INFO] - [13-04-2025 15:23:49] [main] [Com.SwagLabs.Utils.ElementActions] - Enter Data : secret_sauce  By.id: password
+[INFO] - [13-04-2025 15:23:50] [main] [Com.SwagLabs.Utils.ElementActions] - Wait Element To Be Clickable By.id: login-button
+[INFO] - [13-04-2025 15:23:50] [main] [Com.SwagLabs.Utils.ElementActions] - Scroll to the element By.id: login-button
+[INFO] - [13-04-2025 15:23:50] [main] [Com.SwagLabs.Utils.ElementActions] - Click on the element By.id: login-button
+[INFO] - [13-04-2025 15:23:53] [main] [Com.SwagLabs.Utils.ScreenShotUtils] - ScreenShot taken successfully
+[INFO] - [13-04-2025 15:23:53] [main] [Com.SwagLabs.Listeners.TestListener] - Test LoginWithValidCredentials Successfully Passed
+[ERROR] - [13-04-2025 15:23:53] [main] [io.qameta.allure.AllureLifecycle] - Could not start step: no test case running
+[ERROR] - [13-04-2025 15:23:53] [main] [io.qameta.allure.AllureLifecycle] - Could not update step: no step running
+[ERROR] - [13-04-2025 15:23:53] [main] [io.qameta.allure.AllureLifecycle] - Could not stop step: no step running
+[ERROR] - [13-04-2025 15:23:54] [main] [io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[INFO] - [13-04-2025 15:23:54] [main] [Com.SwagLabs.Utils.ScreenShotUtils] - ScreenShot taken successfully
+[DEBUG] - [13-04-2025 15:23:54] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['products']['item1']['name']
+[INFO] - [13-04-2025 15:23:54] [main] [Com.SwagLabs.Pages.HomePage] - Adding Sauce Labs Backpackto cart 
+[INFO] - [13-04-2025 15:23:54] [main] [Com.SwagLabs.Utils.ElementActions] - Wait Element To Be Clickable [unknown locator]
+[INFO] - [13-04-2025 15:23:54] [main] [Com.SwagLabs.Utils.ElementActions] - Scroll to the element [unknown locator]
+[INFO] - [13-04-2025 15:23:54] [main] [Com.SwagLabs.Utils.ElementActions] - Click on the element [unknown locator]
+[INFO] - [13-04-2025 15:23:54] [main] [Com.SwagLabs.Pages.HomePage] - Product name :Sauce Labs Backpack Added Correctly To Cart
+[INFO] - [13-04-2025 15:23:54] [main] [Com.SwagLabs.Utils.ScreenShotUtils] - ScreenShot taken successfully
+[INFO] - [13-04-2025 15:23:54] [main] [Com.SwagLabs.Listeners.TestListener] - Test verifyAddingItemToCart Successfully Passed
+[ERROR] - [13-04-2025 15:23:54] [main] [io.qameta.allure.AllureLifecycle] - Could not start step: no test case running
+[ERROR] - [13-04-2025 15:23:54] [main] [io.qameta.allure.AllureLifecycle] - Could not update step: no step running
+[ERROR] - [13-04-2025 15:23:54] [main] [io.qameta.allure.AllureLifecycle] - Could not stop step: no step running
+[ERROR] - [13-04-2025 15:23:54] [main] [io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[INFO] - [13-04-2025 15:23:54] [main] [Com.SwagLabs.Utils.ScreenShotUtils] - ScreenShot taken successfully
+[DEBUG] - [13-04-2025 15:23:54] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['numOfProduct']
+[INFO] - [13-04-2025 15:23:54] [main] [Com.SwagLabs.Utils.ElementActions] - Getting the text of the element
+[INFO] - [13-04-2025 15:23:54] [main] [Com.SwagLabs.Utils.ScreenShotUtils] - ScreenShot taken successfully
