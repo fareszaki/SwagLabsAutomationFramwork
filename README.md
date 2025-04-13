@@ -10,23 +10,6 @@ This project is a comprehensive automation framework designed for testing the Sw
 - **Fluent Pattern**: Simplifies method chaining for improved readability and concise test scripts.
 - **Logging and Reporting**: Integrates logging utilities and generates detailed test execution reports using **Allure**.
 - **Reusable Utilities**: Provides utility classes for common actions like element interactions, waits, and validations.
-FullAutomationFrameworkSwagLabs/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── Com/
-│   │   │   │   ├── SwagLabs/
-│   │   │   │   │   ├── Driver/         # WebDriver management
-│   │   │   │   │   ├── Pages/          # Page Object Model classes
-│   │   │   │   │   ├── Utils/          # Utility classes (e.g., actions, waits, logs)
-│   ├── test/
-│   │   ├── java/
-│   │   │   ├── Com/
-│   │   │   │   ├── SwagLabs/
-│   │   │   │   │   ├── Tests/          # Test classes
-│   │   ├── resources/
-│   │   │   ├── Login_Data.json         # Test data
-├── pom.xml                              # Maven configuration
 
 Key Classes
 
