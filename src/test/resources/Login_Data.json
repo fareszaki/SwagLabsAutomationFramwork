@@ -1,0 +1,31 @@
+{
+  "valid_data": {
+    "username": "standard_user",
+    "Password": "secret_sauce"
+  },
+  "invalid_data": {
+    "username": "invalid_user",
+    "Password": "invalid_password"
+  },
+
+     "products": {
+       "item1": {
+         "name": "Sauce Labs Backpack",
+         "price": "7.99"
+       },
+       "item2": {
+         "name": "Sauce Labs Bike Light",
+         "price": "9.99"
+       }
+     },
+
+  "sortedByName" : {
+    "name1" : "Name (A to Z)" ,
+    "name2": "Name (Z to A)" ,
+    "name3": "Price (low to high)",
+    "name4": "Price (high to low)"
+  },
+   "numofproducts" : "1" ,
+   "buttonName" : "REMOVE"
+
+}
